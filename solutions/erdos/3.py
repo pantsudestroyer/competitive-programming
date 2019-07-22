@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(10**6)
-
 def gcd(a, b):
     while b:
         a, b = b, a % b
